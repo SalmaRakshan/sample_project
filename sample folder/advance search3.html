@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Advance Search</title>
+        <link rel="stylesheet" href="advancesearch3.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+        <nav id="head" class="nav-bar">
+            <div class="header">
+            <a id="pic" class="navbar-brand" href="mygoogle.html">
+                <img src="google.png" alt="google">
+              </a>
+              <a href="https://accounts.google.com/"><button type="button" id="sign">Sign in</button></a>
+            </div>
+        </nav>
+        <div class="topic">
+     <h3>Advance Search</h3>
+    </div>
+    <div class="line1" style="border-bottom: 1px solid rgb(235, 235, 235);"></div>
+    <br>
+    <br>
+    <div class="content">
+        <form action="https://www.google.com/search">
+            <div class="space" style="padding-bottom:15px;"></div>
+
+            <div class="fpw">
+            <label id="fpw">Find pages with....</label>
+            <span id="sidewords_heading">To do this in the search box.</span><br>
+        </div>
+        <div class="space" style="padding-bottom:18px;"></div>
+            <div class="as_q">
+            <label id="atw">all these words:
+        <input id="box"name="as_q"type="text" autofocus></label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <span id="sidewords">Type the important words: tri-colour rat terrier</span><br>
+    </div>
+    <div class="space" style="padding-bottom:18px;"></div>
+    <div class="as_epq">
+        <label id="tew">this exact word or phrase: 
+        <input id="box" name="as_epq"  type="text"></label>&nbsp 
+        <span id="sidewords">Put exact words in quotes: "rat terrier"</span><br>
+        </div>
+        <div class="space" style="padding-bottom:18px;"></div>
+        <div class="as_oq">
+        <label id="aow">any of these words:
+        <input id="box" name="as_oq"  type="text"></label>&nbsp &nbsp &nbsp &nbsp &nbsp
+        <span id="sidewords">Type OR between all the words you want: miniature OR standard</span><br>
+        </div>
+        <div class="space" style="padding-bottom:18px;"></div>
+        <div class="as_eq">
+        <label id="now">none of these words:
+        <input id="box" name="as_eq"  type="text"></label>&nbsp &nbsp &nbsp &nbsp 
+        <span id="sidewords">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span><br>
+        </div>
+<div class="space" style="padding-bottom:18px;"></div>
+        <div class="ads">
+        <input id="ads" type="submit" value="Advance Search"><br>
+        </div>
+    </form>
+    </div>
+    </div>
+    </body>
+</html>
